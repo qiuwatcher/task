@@ -15,6 +15,11 @@
 		63D2A8071C473B22009F1CA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D2A8051C473B22009F1CA5 /* LaunchScreen.storyboard */; };
 		63D2A8121C473B22009F1CA5 /* HRHCustomSegmentControlViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2A8111C473B22009F1CA5 /* HRHCustomSegmentControlViewTests.m */; };
 		63D2A81D1C473B22009F1CA5 /* HRHCustomSegmentControlViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2A81C1C473B22009F1CA5 /* HRHCustomSegmentControlViewUITests.m */; };
+		63D2A82C1C478124009F1CA5 /* FirstFloorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2A82B1C478124009F1CA5 /* FirstFloorLabel.m */; };
+		63D2A82F1C47825F009F1CA5 /* RootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2A82E1C47825F009F1CA5 /* RootView.m */; };
+		63D2A8351C4786C1009F1CA5 /* UIView+Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2A8341C4786C1009F1CA5 /* UIView+Label.m */; };
+		63D2A8381C4787BB009F1CA5 /* SecondFloorLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2A8371C4787BB009F1CA5 /* SecondFloorLabel.m */; };
+		63D2A83B1C478DBF009F1CA5 /* UIView+ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D2A83A1C478DBF009F1CA5 /* UIView+ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		63D2A8181C473B22009F1CA5 /* HRHCustomSegmentControlViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HRHCustomSegmentControlViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D2A81C1C473B22009F1CA5 /* HRHCustomSegmentControlViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRHCustomSegmentControlViewUITests.m; sourceTree = "<group>"; };
 		63D2A81E1C473B22009F1CA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D2A82A1C478124009F1CA5 /* FirstFloorLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstFloorLabel.h; sourceTree = "<group>"; };
+		63D2A82B1C478124009F1CA5 /* FirstFloorLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstFloorLabel.m; sourceTree = "<group>"; };
+		63D2A82D1C47825F009F1CA5 /* RootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootView.h; sourceTree = "<group>"; };
+		63D2A82E1C47825F009F1CA5 /* RootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootView.m; sourceTree = "<group>"; };
+		63D2A8331C4786C1009F1CA5 /* UIView+Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Label.h"; sourceTree = "<group>"; };
+		63D2A8341C4786C1009F1CA5 /* UIView+Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Label.m"; sourceTree = "<group>"; };
+		63D2A8361C4787BB009F1CA5 /* SecondFloorLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondFloorLabel.h; sourceTree = "<group>"; };
+		63D2A8371C4787BB009F1CA5 /* SecondFloorLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondFloorLabel.m; sourceTree = "<group>"; };
+		63D2A8391C478DBF009F1CA5 /* UIView+ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewController.h"; sourceTree = "<group>"; };
+		63D2A83A1C478DBF009F1CA5 /* UIView+ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				63D2A7FB1C473B22009F1CA5 /* AppDelegate.m */,
 				63D2A7FD1C473B22009F1CA5 /* ViewController.h */,
 				63D2A7FE1C473B22009F1CA5 /* ViewController.m */,
+				63D2A82D1C47825F009F1CA5 /* RootView.h */,
+				63D2A82E1C47825F009F1CA5 /* RootView.m */,
+				63D2A82A1C478124009F1CA5 /* FirstFloorLabel.h */,
+				63D2A82B1C478124009F1CA5 /* FirstFloorLabel.m */,
+				63D2A8361C4787BB009F1CA5 /* SecondFloorLabel.h */,
+				63D2A8371C4787BB009F1CA5 /* SecondFloorLabel.m */,
+				63D2A8331C4786C1009F1CA5 /* UIView+Label.h */,
+				63D2A8341C4786C1009F1CA5 /* UIView+Label.m */,
+				63D2A8391C478DBF009F1CA5 /* UIView+ViewController.h */,
+				63D2A83A1C478DBF009F1CA5 /* UIView+ViewController.m */,
 				63D2A8001C473B22009F1CA5 /* Main.storyboard */,
 				63D2A8031C473B22009F1CA5 /* Assets.xcassets */,
 				63D2A8051C473B22009F1CA5 /* LaunchScreen.storyboard */,
@@ -273,9 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D2A8381C4787BB009F1CA5 /* SecondFloorLabel.m in Sources */,
 				63D2A7FF1C473B22009F1CA5 /* ViewController.m in Sources */,
 				63D2A7FC1C473B22009F1CA5 /* AppDelegate.m in Sources */,
+				63D2A82C1C478124009F1CA5 /* FirstFloorLabel.m in Sources */,
+				63D2A8351C4786C1009F1CA5 /* UIView+Label.m in Sources */,
+				63D2A83B1C478DBF009F1CA5 /* UIView+ViewController.m in Sources */,
 				63D2A7F91C473B22009F1CA5 /* main.m in Sources */,
+				63D2A82F1C47825F009F1CA5 /* RootView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

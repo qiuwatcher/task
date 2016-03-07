@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (Label)
+- (UILabel *)label;
 
 @end

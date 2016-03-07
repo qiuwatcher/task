@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootView : UIView
-
+@interface RootView : UIView{
+    //UIView *label2sFatherView;
+}
 @end

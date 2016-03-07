@@ -9,5 +9,21 @@
 #import "UIView+Label.h"
 
 @implementation UIView (Label)
+- (UILabel *)label {
+    UIResponder *responder = self.nextResponder;
+    
+    do {
+        if ([responder isKindOfClass:[UILabel class]]) {
+            
+            return (UILabel *)responder;
+        }
+        responder = responder.nextResponder;
+    }while (responder != nil);
+    
+    return  nil;
+        
+        
+        
+}
 
 @end
